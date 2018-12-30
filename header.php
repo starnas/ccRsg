@@ -22,6 +22,7 @@
     <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="index.php">Home</a>
+      <a class="navbar-brand" href="rsg.php">RSG</a>
       <a class="navbar-brand" href="about.php">About</a>
     </div>
   </nav>
