@@ -28,13 +28,19 @@
   <div class="card">
     <div class="card-header" id="rs1">
       <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#rs1content" aria-expanded="true" aria-controls="rs1content" style="color:black;">
-          RS.1
-        </button>
+				<?php if(isset($_GET["map_index"])): ?>
+        	<button class="btn btn-link" data-toggle="collapse" data-target="#rs1content" aria-expanded="true" aria-controls="rs1content" style="color:black;">
+          	<h4><?php echo "RS.1 (Selected Map " . (string)($_GET["map_index"]-1) . ")";?></h4>
+        	</button>
+				<?php else: ?>
+					<button class="btn btn-link" data-toggle="collapse" data-target="#rs1content" aria-expanded="true" aria-controls="rs1content" style="color:black;">
+          	<h4>RS.1</h4>
+        	</button>
+				<?php endif; ?>
       </h5>
     </div>
 
-    <div id="rs1content" class="collapse show" aria-labelledby="rs1" data-parent="#accordion">
+    <div id="rs1content" <?php if(isset($_GET["map_index"])){echo 'class="collapse"';}else{echo 'class="collapse show"';}?> aria-labelledby="rs1" data-parent="#accordion">
       <div class="card-body">
 
       <!-- gallery code -->
@@ -45,7 +51,7 @@
 							<a href="#" class="d-block mb-4 h-100">
 								<form action="rsg.php" method="GET">
 									<button type="submit" name="map_index" value=<?php echo $x?> class="btn btn-link btn-sm" style='color: black; font-size:100%'>
-										<img class="img-fluid img-thumbnail" src="<?php echo $map_dir_relative . $map_files[$x]; ?> " alt="Submit">
+										<img class="img-fluid img-thumbnail" src="<?php echo $map_dir_relative . $map_files[$x]; ?> " alt="Submit" <?php if(isset($_GET["map_index"])){if($_GET["map_index"]==$x){echo "style='border: 10px solid red'";};};?>>
 									</button>
 								</form>
 							</a>
