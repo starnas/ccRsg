@@ -1,0 +1,267 @@
+{
+	"chits": [
+		{
+			"nation": "Russian",
+			"force_size": "Company",
+			"force_name": "Guards SMG",
+			"chit_letter": "R",
+			"dates_available": [1942, 1943, 1944, 1945],
+			"point_value": 28,
+			"initiative": 6,
+			"orders": 4,
+			"quality": "Elite",
+			"surrender_level": 13,
+			"units": [
+				{
+					"leader": 3,
+					"guards_smg_squad": 15,
+					"light_mg": 3,
+					"satchel_charge": 3
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Detachment",
+			"force_name": "Guards SMG",
+			"chit_letter": "R",
+			"dates_available": [1942, 1943, 1944, 1945],
+			"point_value": 19,
+			"initiative": 8,
+			"orders": 3,
+			"quality": "Elite",
+			"surrender_level": 9,
+			"units": [
+				{
+					"leader": 2,
+					"guards_smg_squad": 10,
+					"light_mg": 2,
+					"satchel_charge": 2
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Platoon",
+			"force_name": "Guards SMG",
+			"chit_letter": "R",
+			"dates_available": [1942, 1943, 1944, 1945],
+			"point_value": 10,
+			"initiative": 10,
+			"orders": 2,
+			"quality": "Elite",
+			"surrender_level": 5,
+			"units": [
+				{
+					"leader": 1,
+					"guards_smg_squad": 5,
+					"light_mg": 1,
+					"satchel_charge": 1
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Company",
+			"force_name": "Commando",
+			"chit_letter": "S",
+			"dates_available": [1943, 1944, 1945],
+			"point_value": 29,
+			"initiative": 8,
+			"orders": 4,
+			"quality": "Elite",
+			"surrender_level": 13,
+			"units": [
+				{
+					"leader": 3,
+					"guards_smg_squad": 7,
+					"guards_rifle_squad": 7,
+					"elite_team": 2,
+					"light_mg": 5,
+					"50_cal_mg": 1,
+					"satchel_charge": 3
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Detachment",
+			"force_name": "Commando",
+			"chit_letter": "S",
+			"dates_available": [1943, 1944, 1945],
+			"point_value": 20,
+			"initiative": 8,
+			"orders": 3,
+			"quality": "Elite",
+			"surrender_level": 11,
+			"units": [
+				{
+					"leader": 2,
+					"guards_smg_squad": 4,
+					"guards_rifle_squad": 4,
+					"elite_team": 4,
+					"light_mg": 3,
+					"50_cal_mg": 1,
+					"satchel_charge": 2
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Platoon",
+			"force_name": "Commando",
+			"chit_letter": "S",
+			"dates_available": [1943, 1944, 1945],
+			"point_value": 11,
+			"initiative": 8,
+			"orders": 2,
+			"quality": "Elite",
+			"surrender_level": 6,
+			"units": [
+				{
+					"leader": 1,
+					"guards_smg_squad": 2,
+					"guards_rifle_squad": 2,
+					"elite_team": 2,
+					"light_mg": 1,
+					"50_cal_mg": 1,
+					"satchel_charge": 1
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Company",
+			"force_name": "Assault Engineer",
+			"chit_letter": "T",
+			"dates_available": [1942, 1943, 1944, 1945],
+			"point_value": 34,
+			"initiative": 18,
+			"orders": 4,
+			"quality": "Elite",
+			"surrender_level": 13,
+			"units": [
+				{
+					"leader": 3,
+					"assault_squad": 6,
+					"guards_smg_squad": 8,
+					"elite_team": 2,
+					"light_mg": 3,
+					"flamethrower": 3,
+					"satchel_charge": 6
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Detachment",
+			"force_name": "Assault Engineer",
+			"chit_letter": "T",
+			"dates_available": [1942, 1943, 1944, 1945],
+			"point_value": 23,
+			"initiative": 14,
+			"orders": 3,
+			"quality": "Elite",
+			"surrender_level": 9,
+			"units": [
+				{
+					"leader": 2,
+					"assault_squad": 4,
+					"guards_smg_squad": 5,
+					"elite_team": 2,
+					"light_mg": 2,
+					"flamethrower": 2,
+					"satchel_charge": 4
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Platoon",
+			"force_name": "Assault Engineer",
+			"chit_letter": "T",
+			"dates_available": [1942, 1943, 1944, 1945],
+			"point_value": 12,
+			"initiative": 10,
+			"orders": 2,
+			"quality": "Elite",
+			"surrender_level": 6,
+			"units": [
+				{
+					"leader": 1,
+					"assault_squad": 2,
+					"guards_smg_squad": 2,
+					"elite_team": 2,
+					"light_mg": 1,
+					"flamethrower": 1,
+					"satchel_charge": 2
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Company",
+			"force_name": "Guards Rifle",
+			"chit_letter": "U",
+			"dates_available": [1939, 1940, 1941, 1942, 1943, 1944, 1945],
+			"point_value": 30,
+			"initiative": 10,
+			"orders": 4,
+			"quality": "Elite",
+			"surrender_level": 14,
+			"units": [
+				{
+					"leader": 3,
+					"guards_rifle_squad": 15,
+					"weapon_team": 2,
+					"light_mg": 4,
+					"heavy_mg": 1,
+					"50_cal_mg": 1,
+					"light_mortar": 2
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Detachment",
+			"force_name": "Guards Rifle",
+			"chit_letter": "U",
+			"dates_available": [1939, 1940, 1941, 1942, 1943, 1944, 1945],
+			"point_value": 19,
+			"initiative": 6,
+			"orders": 3,
+			"quality": "Elite",
+			"surrender_level": 10,
+			"units": [
+				{
+					"leader": 2,
+					"guards_rifle_squad": 10,
+					"weapon_team": 1,
+					"light_mg": 3,
+					"heavy_mg": 1,
+					"light_mortar": 1
+				}
+			]
+		},
+		{
+			"nation": "Russian",
+			"force_size": "Platoon",
+			"force_name": "Guards Rifle",
+			"chit_letter": "U",
+			"dates_available": [1939, 1940, 1941, 1942, 1943, 1944, 1945],
+			"point_value": 10,
+			"initiative": 8,
+			"orders": 2,
+			"quality": "Elite",
+			"surrender_level": 5,
+			"units": [
+				{
+					"leader": 1,
+					"guards_rifle_squad": 5,
+					"light_mg": 2,
+					"heavy_mg": 1
+				}
+			]
+		}
+	]
+}
